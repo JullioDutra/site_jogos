@@ -1,0 +1,139 @@
+/* Estilos para o container principal */
+
+body{
+    background-color: rgb(7, 7, 60);
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para os botões de seleção de time */
+  button {
+    
+    width: 40%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+  
+  /* Estilo padrão para botões */
+  button:hover {
+    background-color: white; /* Verde */
+    color: black;
+  }
+  
+  /* Estilos para botões de times específicos */
+.palmeiras {
+    background-color: green;
+    color: azure;
+  }
+  
+  .atletico {
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  .inter {
+    background-color: red;
+    color: white;
+  }
+  
+  .vasco {
+    background-color: black;
+    color: white;
+  }
+  
+  .flamengo {
+    background-color: red;
+    color: black;
+  }
+  
+  .maria {
+    background-color: blue;
+    color: white;
+  }
+  
+  .gremio {
+    background-color: cadetblue;
+    color: black;
+  }
+  
+  /* Estilos para o formulário de envio */
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 25;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 15px;
+    background-color: #008CBA; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    border-color: aliceblue 520px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0073e6; /* Azul mais escuro ao passar o mouse */
+  }
+  
+.santos{
+    background-color: white;
+    color: black;
+
+}
+
+.sp{
+background-color: white;
+color: red;
+}
+
+.corinthians{
+    background-color: black;
+    color: white;
+}
+
+.fluminense{
+    background-color: green;
+    color: red;
+}
+
+.botafogo{
+    background-color: black;
+    color: white;
+}
+
+.sport{
+    background-color: orange;
+    color: red;
+}
+
+.goias{
+  background-color: greenyellow;
+ color: white; 
+}
